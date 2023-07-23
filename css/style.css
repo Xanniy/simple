@@ -13,6 +13,9 @@ body{
     background-color: #FFFFFF;
     color:#85859B;
 }
+.wrapper{
+    overflow-x: hidden;
+}
 .container{
     max-width: 1140px;
     padding: 0 15px;
