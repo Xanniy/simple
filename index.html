@@ -2,20 +2,26 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=1140">
     <!-- Шрифты -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
     <!--  -->
+    <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/clear.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+        </script>
     <title>Simple</title>
 </head>
 <body>
     <div class="wrapper">
         <header class="header"> 
-                <div class="header__container">
+                <div class="container">
+                    <div class="header-flex">
                     <div class="header__logo">
                     <a href="#" class="header__logo-link"><img src="img/logo.svg" alt=""></a>
                     </div>
@@ -30,24 +36,25 @@
                         <li class="header__nav-item-icon"><img src="img/search.svg" alt=""></li>
                         <li class="header__nav-item-icon"><img src="img/log_in.svg" alt=""></li>
                     </ul>
-                     </div>
+                    </div>
+                </div>
                 </div>
         </header>
         <section class="simple__things">
             <div class="container">
                 <div class="simple__thigs-flex">
-                    <div class="simple__thigs-info">
+                    <div class="simple__thigs-info animate__animated animate__fadeInLeft">
                         <h1 class="simple__thigs-h1">Простые вещи. Из бумаги</h1>
                             <div class="simple__thigs-text">Бума́га (предположительно от итал. bombagia,<br> первоисточником же считается иранский) — волокнистый материал с минеральными <br> добавками. </div>
                             <a href="#" class="simple__thigs-button">Каталог</a>
                     </div>
-                    <img src="img/Layer.png" alt="">
+                    <img class="animate__animated animate__fadeInRight" src="img/Layer.png" alt="">
                 </div>
             </div>
         </section>
         <section class="maximum__whiteness">
             <div class="container">
-                <div class="maximum__whiteness-cardblock">
+                <div class="maximum__whiteness-cardblock animate__animated animate__fadeInUp wow">
                     <div class="maximum__whiteness-cardblock-item">
                         <img src="img/Buissnes Cards v2 (85x55).png" alt="">
                         <div class="maximum__whiteness-cardblock-item-info">
@@ -71,8 +78,8 @@
                     </div>
                 </div>
                 <div class="maximum__whiteness-flex">
-                    <img src="img/Folder v8 Open 1.png" alt="">
-                    <div class="maximum__whiteness_flex-info">
+                    <img class="animate__animated animate__zoomIn wow" src="img/Folder v8 Open 1.png" alt="">
+                    <div class="maximum__whiteness_flex-info animate__animated animate__fadeInRight wow">
                         <h3>Максимальная белизна</h3>
                         <p>Для повышения белизны, гладкости и мягкости в состав бумажной массы вводят белые минеральные вещества: мел, тальк, каолин и др. Эта операция называется наполнением. <br>
                             Отлив бумажного листа осуществляют на бумагоделательной машине, важнейшей частью которой является непрерывно движущаяся (как транспортер) металлическая или капроновая сетка.</p>
@@ -82,7 +89,7 @@
         </section>
         <section class="products">
             <div class="container">
-                <div class="products-flex">
+                <div class="products-flex animate__animated animate__fadeInUp wow">
                     <div class="products__item">
                         <div class="products__item-img">
                             <img src="img/Group 206.png" alt="">
@@ -136,7 +143,7 @@
         </section>
         <section class="partners">
             <div class="container">
-                <div class="partners-flex">
+                <div class="partners-flex animate__animated animate__fadeInUp wow">
                     <div class="partners__item">
                         <img src="img/Frame 226.png" alt="">
                     </div>
@@ -155,12 +162,12 @@
         <section class="sketchbook">
             <div class="container">
                 <div class="sketchbook-flex">
-                    <div class="sketchbook__info">
+                    <div class="sketchbook__info animate__animated animate__fadeInLeft wow">
                         <h3>Simple скетчбук</h3>
                         <p>80 листов, твердая обложка, бумага  Fabriano 200 г/м2. Подойдет и для графики и для акварели. Для самых смелых творческих замыслов!</p>
                         <a href="#" class="sketchbook__info-button">Купить</a>
                     </div>
-                    <img src="img/pic.png" alt="">
+                    <img class="animate__animated animate__fadeInRight wow" src="img/pic.png" alt="">
                 </div>
             </div>
         </section>
@@ -222,5 +229,4 @@
             </div>
         </footer>
     </div>
-</body>
 </html>

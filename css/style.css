@@ -26,10 +26,7 @@ body{
     border-bottom:  1px #DDDDDD solid;
     height: 79px;
 }
-.header__container{
-    max-width: 1140px;
-    padding: 0 15px;
-    margin: 0 auto;
+.header-flex{
     display: flex;
     align-items: center;
     justify-content: space-between;
